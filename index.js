@@ -19,7 +19,8 @@ try {
     fs.writeFileSync('pinefile.js', output);
     console.log('pinefile.js has been created');
   } else {
-    console.log('no tool selected');
+    console.log('no task runner selected');
+    console.log('existing: npm');
   }
 } catch (err) {
   console.log(err);
