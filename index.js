@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const npm = require('./lib/npm.js');
 
 const argv = process.argv.slice(2);
@@ -9,7 +10,11 @@ try {
 
   switch (tool) {
     case 'npm':
-      output = npm(require(argv.length ? argv[0] : './package.json'));
+      output = npm(
+        require(argv.length
+          ? argv[0]
+          : path.join(process.cwd(), 'package.json'))
+      );
       break;
     default:
       break;

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Migrate from other task runners",
   "main": "index.js",
+  "bin": {
+    "pine-migrate": "bin/migrate"
+  },
   "scripts": {
     "format": "prettier --write index.js lib/**/*.js",
     "lint": "semistandard index.js lib",
