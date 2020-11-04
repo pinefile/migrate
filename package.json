@@ -1,0 +1,14 @@
+{
+  "name": "@pinefile/migrate",
+  "version": "1.0.0",
+  "description": "Migrate from other task runners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "stringify-object": "^3.3.0"
+  }
+}
