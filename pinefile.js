@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { log, run } = require('@pinefile/pine');
+const { run } = require('@pinefile/pine');
 const npm = require('./lib/npm.js');
 const { createPinefile } = require('./lib/pine');
 
