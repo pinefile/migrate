@@ -7,7 +7,6 @@ const { createPinefile } = require('./lib/pine');
 const create = (opts) => {
   try {
     createPinefile(opts);
-    console.log(`${opts.file||'pinefile.js'} has been created`);
   } catch (err) {
     console.error(err);
   }
