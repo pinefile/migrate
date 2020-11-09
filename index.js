@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const npm = require('./lib/npm.js');
+const { createPinefile } = require('./lib/pine');
 
 const argv = process.argv.slice(2);
 const tool = argv.shift();
@@ -21,7 +22,7 @@ try {
   }
 
   if (output) {
-    fs.writeFileSync('pinefile.js', output);
+    createPinefile(output);
     console.log('pinefile.js has been created');
   } else {
     console.log('no task runner selected');
