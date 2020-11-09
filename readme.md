@@ -5,7 +5,7 @@ Experimental migration tool for replacing other task runners with pine.
 ## Usage
 
 ```
-node index.js npm [/path/to/package.json]
+npx pine npm [/path/to/package.json] [--output=pinefile.js] [--tasksDir=tasks]
 ```
 
 ## License
