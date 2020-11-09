@@ -7,6 +7,7 @@ const { createPinefile } = require('./lib/pine');
 const create = (opts) => {
   try {
     createPinefile(opts);
+    console.log('remember to install pine task runner: npm install --save-dev @pinefile/pine')
   } catch (err) {
     console.error(err);
   }
