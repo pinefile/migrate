@@ -9,7 +9,9 @@
   "scripts": {
     "format": "prettier --write index.js lib/**/*.js",
     "lint": "semistandard index.js lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:test": "echo \"Error: no test specified\" && exit 1",
+    "test:npm": "npm run test"
   },
   "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
   "license": "MIT",
