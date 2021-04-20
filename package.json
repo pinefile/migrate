@@ -16,7 +16,7 @@
   "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@pinefile/pine": "^1.0.0-alpha.11",
+    "@pinefile/pine": "^1.0.0-alpha.18",
     "stringify-object": "^3.3.0"
   },
   "devDependencies": {
