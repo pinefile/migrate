@@ -16,11 +16,11 @@
   "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@pinefile/pine": "^1.0.0-alpha.26",
+    "@pinefile/pine": "^1.0.0",
     "stringify-object": "^3.3.0"
   },
   "devDependencies": {
-    "prettier": "^2.2.1",
-    "semistandard": "^11.0.0"
+    "prettier": "^2.3.2",
+    "semistandard": "^16.0.1"
   }
 }
