@@ -7,6 +7,7 @@
     "pine-migrate": "bin/migrate"
   },
   "scripts": {
+    "dev": "npx pine npm ../pine/package.json --output pinefile2.js",
     "format": "prettier --write index.js lib/**/*.js",
     "lint": "semistandard index.js lib",
     "test": "echo \"Error: no test specified\" && exit 1",
